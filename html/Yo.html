@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rafael González</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #E87778;
+  padding: 30px;
+  text-align: justify;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  height: 1200px; /* only for demonstration, should be removed */
+  background: #77E893;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+	<h2>Rafael González</h2>
+		<p></p>
+</header>
+
+<section>
+  <nav>
+  	<h1>Modo artista</h1>
+				<p>Autodidacta en piano desde los 15 años.</p>
+				
+				<li><a href="https://www.youtube.com/watch?v=_aqx5hdPpgE&ab_channel=RafaelGN">GUADALUPE BARAJAS - La Adelita. Piano Cover Instrumental / Popular song of the mexican revolution</a></li></p>
+
+				<li><a href="https://www.youtube.com/watch?v=2-1W6EkzPd8&ab_channel=RafaelGN">LINKIN PARK - One More Light. Piano Cover Instrumental</a></li></p>
+
+				<li><a href="https://www.youtube.com/watch?v=yh0vMdhFX3o&ab_channel=RafaelGN">POPULAR ITALIAN SONG - Bella Ciao. Piano Cover Instrumental</a></li></p>
+
+  	<h1>Modo cocinero</h1>
+  		<p>Gusto de cocinar cualquier tipo de comida que sea deliciosa.</p>
+  		<img style ="max-width: 15vw; max-height: 15vh; "src="cocina1.jpg">
+  		<img style ="max-width: 15vw; max-height: 15vh; "src="cocina2.jpg">
+  		<img style ="max-width: 15vw; max-height: 15vh; "src="cocina3.jpg">
+  		<img style ="max-width: 15vw; max-height: 15vh; "src="cocina4.jpg">
+  		<img style ="max-width: 15vw; max-height: 15vh; "src="cocina5.jpg">
+  		<img style ="max-width: 15vw; max-height: 15vh; "src="cocina6.jpg">
+  		<img style ="max-width: 15vw; max-height: 15vh; "src="cocina7.jpg">
+  </nav>
+  
+  	<article>
+		<h1>Miauu-morcito y Yo</h1>
+		<p>Mi novia Jaqueline a quien conozco desde los 15 años.</p>
+				<img style ="max-width: 45vw; max-height: 45vh; "src="miAmorcito.jpg">
+		<h1>Mi gata Tayka Alekseyevskaya</h1>
+				<img style ="max-width: 45vw; max-height: 45vh; "src="gataMiaa.jpg">
+				<img style ="max-width: 45vw; max-height: 45vh; "src="gataMiaa2.jpg">
+		<h1>Series favoritas</h1>	
+			<img style ="max-width: 20vw; max-height: 20vh; "src="gustos1.jpg">
+			<img style ="max-width: 20vw; max-height: 20vh; "src="gustos2.jpg">	
+			<img style ="max-width: 20vw; max-height: 20vh; "src="gustos3.webp">
+		<h1>Top 5 canciones favoritas</h1>
+			<li><a href="https://www.youtube.com/watch?v=9E6b3swbnWg&ab_channel=andrearomano">Chopin - Nocturne op.9 No.2</a></li></p>
+			<li><a href="https://www.youtube.com/watch?v=jSvxE5eIUIQ&ab_channel=DifficileCapire">Yiruma - Love me</a></li></p>
+			<li><a href="https://www.youtube.com/watch?v=1snEYPg8TXs&ab_channel=Sabaton">SABATON - The Red Baron</a></li></p>
+			<li><a href="https://www.youtube.com/watch?v=X-Xqqwa4o-E&ab_channel=SonoraSantaneraVEVO">La Sonora Santanera - La Boa ft. Roco</a></li></p>
+			<li><a href="https://www.youtube.com/watch?v=SJ1aTPM-dyE&ab_channel=TangoCollection">Por una Cabeza- Tango - Carlos Gardel</a></li></p>
+
+  	</article>
+</section>
+
+</body>
+</html>
